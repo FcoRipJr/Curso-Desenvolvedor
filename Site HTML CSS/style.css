@@ -1,0 +1,298 @@
+/* 
+#1f4387  azul
+#fbfdfe  azul marinho   -
+#f84343  vermelho
+#6b767b  cinza
+-*/
+body{
+    font-family:'Work Sans';
+}
+.text-blue{
+    color: #1f4387 !important;
+}
+ .text-gray{
+     color: #6b767b;
+ }
+ .text-white{
+    color: #fff;
+ }
+
+ .text-red{
+    color: #f84343;
+ }
+
+ .text-red-bold{
+    color: #f84343;
+    font-weight: bold;
+ }
+ .centralizar{
+    position:relative;
+    left:40%;
+    right:50%; 
+ }
+
+.botao-white{
+    background-color: #fff;
+    color: #f84343;
+    border: 0px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    padding: 5px 20px;
+    margin-left: 30px;
+    border-radius: 3px;
+
+}
+.botao-white:hover{
+    background-color:#f84343;
+    color: #fff ;
+  
+}
+
+.botao-red-rounded{
+    background-color:#f84343;
+    color: #fff ;
+    border: 0px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    padding: 5px 20px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.botao-red-rounded:hover{
+    background-color: #fff;
+    color: #f84343;
+    border: 1px solid #f84343;
+  
+    
+}
+
+.button-blue-muted{
+    color: #1f4387;
+    background-color: transparent;
+    border: 0px;
+}
+.button-blue-muted:hover{
+    text-decoration: underline;
+}
+
+#imagem-principal{
+    height: 450px;
+}
+
+#banner{
+    padding-top: 70px;
+}
+#banner h1{
+    margin-top: 70px;
+    font-weight: bold;
+}
+#banner p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#principal{
+    background-image: url(background01.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: contain;
+}
+
+#segundaArea{
+    background-image: url(background02.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+#servicos{
+    margin-bottom: 150px;
+}
+#servicos h2{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.card{
+    border: 0px; 
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 30px;
+
+}
+
+.card:hover{
+    border: 15px #1f4387;
+    box-shadow: 2px 4px 10px 2px rgba(20, 4, 116, 0.5);
+}
+
+.icone-card{
+    height: 50px;
+    width: 55px;
+}
+
+.card h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#imagem02{
+    height: 250px;
+}
+
+#about-us h2{
+    font-weight: bold;
+}
+#setasPagina{
+    background-color: transparent;
+    border: 0px;
+    color:#1f4387;
+}
+
+#setasPagina:hover{
+    color: #f84343;
+}
+
+#terceiraArea{
+    background-image: url(background03.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#terceiraArea h2{
+    font-weight: bold;
+}
+#terceiraArea i{
+    text-align: right;
+}
+
+.card-galeria{
+    background-color:#6b767b ;
+    border: 0px;
+    height: 250px;
+    width: 300px;
+}
+ .button-red-muted{
+    color: #f84343;
+    background-color: transparent;
+    border: 0px;
+    font-weight: bold;
+    position:relative;
+    right:50%; 
+    left:50%;
+ }
+
+ .button-red-muted:hover{
+    text-decoration: underline;
+}
+
+#quartaArea{
+    background-image: url(background04.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+#quartaArea h2{
+    font-weight: bold;
+}
+
+#quartaArea h3{
+    font-weight: bold;
+}
+
+.formPlaceholder {
+    font-weight: bold;
+    color: #1f4387;
+    background-color: #f2fafe ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.mudarPagina{
+    position:relative;
+    background-color: transparent;
+    border: 0px;
+    left:80%;
+    top:90%;
+    color:#1f4387;
+}
+.mudarPagina:hover{
+    color: #f84343;
+}
+
+.setaCard{
+    position:relative;
+    background-color: transparent;
+    border: 0px;
+    left:80%;
+    color:#f84343;
+}
+
+.setaCard:hover{
+    color:#1f4387;
+}
+
+.setaCardRed{
+    position:relative;
+    background-color: transparent;
+    border: 10px;
+    border-color:#f84343;
+    left:80%;
+    color:#f2fafe ;
+
+}
+
+.setaCardRed:hover{
+    color:#f84343;
+}
+.cardNews{
+    border: 0px; 
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 10px;
+
+}
+
+.cardNews:hover{
+    border: 15px #1f4387;
+    box-shadow: 2px 4px 10px 2px rgba(20, 4, 116, 0.5);
+}
+.cardNewsRed{
+    background-color:#f84343;
+    color: #fff;
+    border: 0px; 
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 10px;
+}
+
+.cardNewsRed:hover{
+    background-color:#fff;
+    color: #f84343;
+    border: 15px #f84343;
+    box-shadow: 2px 4px 10px 2px rgba(246, 37, 10, 0.5);
+}
+
+#footer{
+    background-color: #1f4387;
+    color:#fff;
+    text-align: center;
+}
+
+#footer h2{
+    font-weight: bold;
+}
+#footer ul{
+    position: relative;
+    margin-left: 350px;
+    text-align: center;
+}
