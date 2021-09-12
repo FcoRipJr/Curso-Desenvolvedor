@@ -1,5 +1,6 @@
 # transferrencia bancaria de js para php
 ````
+<?php
 class Conta{
     private $numeroConta;
     private $titular;
@@ -14,8 +15,8 @@ class Conta{
     public function sacar($valor){
         if ($valor<=$this->saldo){
             $this->saldo -= $valor;
-            echo "Saque realizadocom sucesso!";
-        } else {echo "Saldo insuficiete!";}
+            echo "Saque realizadocom sucesso!<br/>";
+        } else {echo "Saldo insuficiete!<br/>";}
         return $valor;
     }
 
@@ -32,7 +33,7 @@ class Conta{
 
     public function transferir($valor, $recebedor){
         if ($valor > $this->saldo){
-            echo "Você não tem sado suficiente para essa transferência";  
+            echo "Você não tem sado suficiente para essa transferência<br/>";  
             return;
         }
         $this->sacar($valor);
@@ -54,7 +55,8 @@ class contaPoupanca extends Conta{
  $conta2 = new contaPoupanca(14512, "Ivana Bernardo",500);
 
 $conta1->transferir(250,$conta2);
-echo "Saldo conta 1:  ". $conta1->getSaldo();
-echo "Saldo conta 2:  ". $conta2->getSaldo(); 
+echo "Saldo conta 1:  ". $conta1->getSaldo(); echo "<br/>";
+echo "Saldo conta 2:  ". $conta2->getSaldo();  echo "<br/>";
+
 
 ````
