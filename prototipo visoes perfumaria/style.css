@@ -31,7 +31,6 @@ vermelho rgb(187, 57, 44) #ff1677
 }
 
 #principal h1{
-    margin-top: 100px;
     text-align: justify;
     font-weight: bolder;
 }
@@ -46,14 +45,18 @@ vermelho rgb(187, 57, 44) #ff1677
     color:rgb(254, 200, 87);
     text-align: center;
     border-radius: 6px;
+    padding: 15px;
 }
-
-#footer h2{
+#bem-vindo{
+    margin-top: 160px;
+}
+#footer h3{
+    margin-top: 15px;
     text-align: center;
     font-weight: bold;
 }
 #footer ul{
-    margin-left: 33%;
+    margin-left: 30%;
     margin-right: 35%;
     text-align:justify;
 }
@@ -67,7 +70,8 @@ vermelho rgb(187, 57, 44) #ff1677
 
 
 body{
-    font-family:'Work Sans';
+    font-family: 'Classic Blody LinE', sans-serif;
+                                                
 }
 .text-blue{
     color: rgb(93, 148, 206) !important;
