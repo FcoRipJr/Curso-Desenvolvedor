@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula VueJs</title>
+</head>
+<body>
+
+    <div id="app">
+        <!-- <h3> Two-way data binding com Vue.js </h3>
+        <input type="text" v-model="input">
+        <p> {{ input }} </p>         -->
+        
+        <!-- <a v-bind:href="link" target="blank">Link Vuejs</a> -->
+        
+        <!-- <label >Valor</label>
+        <input type="text" v-model="valor">
+        <div v-if="(parseInt(valor) < 0)">
+            Negativo
+        </div>
+        <div v-else-if="(parseInt(valor) > 0)">
+            Positivo
+        </div>
+        <div v-else>
+            Neutro
+        </div> -->
+
+        <h1 v-for="numero in numeros">{{ numero }}</h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                // input:''
+
+                // link: 'http://www.google.com.br'
+
+                // valor:'0'
+
+                numeros:[5,10,45,85]
+            }
+        })
+    </script>
+
+</body>
+</html>
